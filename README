@@ -2,7 +2,7 @@ Building asciidoc presentation:
 - download and install asciidoc (with slidy) and graphviz
 - from on of the presentations folder run:
 	./makeslides
-- For example in the presentations/git-gerrit/workshop/ folder
+- For example in the presentations/git-gerrit-workshop/ folder
 
 Output for presentations:
 - The current actively used master file is: git-workshop.txt 
