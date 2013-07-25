@@ -1,4 +1,5 @@
-asciidoc --verbose -a icons -a iconsdir=/opt/local/share/doc/asciidoc/images/icons git-workshop.txt
+# add --verbose to command to see more info
+asciidoc -a icons -a iconsdir=/opt/local/share/doc/asciidoc/images/icons git-workshop.txt
 asciidoc -a icons -a iconsdir=/opt/local/share/doc/asciidoc/images/icons workshop-preparations.txt
 asciidoc -a icons -a iconsdir=/opt/local/share/doc/asciidoc/images/icons abstract.txt
 asciidoc -a icons -a iconsdir=/opt/local/share/doc/asciidoc/images/icons index.txt
