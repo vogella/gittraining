@@ -8,7 +8,7 @@ GitHub is the world’s largest source code repository with over 2 million Git r
 GitHub Mylyn Connector can be installed in the following ways:
 
 * Main P2 Repository: http://download.eclipse.org/egit/github/updates
-* Juno P2 Repository (*): http://download.eclipse.org/releases/juno
+* Kepler P2 Repository (*): http://download.eclipse.org/releases/kepler
 * Via the Eclipse Marketplace
 * http://download.eclipse.org/egit/github/updates-nightly (Recommended)
 

@@ -6,12 +6,11 @@ Here you learn how you can handle this common situation.
 
 === Preparation
 
-For this exercise, we use the original training repository at https://github.com/laytraining/gittraining-sample.git.
+For this exercise, we use the a new repository at https://github.com/vogella/gittraining-shared.git. Clone this repository and import the existing project into your workspace.
 
 Ask the trainers to add you as a coworker to this repository. Otherwise you are not authorized to push.
 
-Follow exercise 2, link:develop-a-feature.txt[Develop a feature] or exercise 3, link:develop-feature-use-staging-view.txt[Develop a feature using the staging view], 
-to create a new commit in your local repository. 
+Change one of the existing files and create new files and use the Git Staging view to to create a new commit in your local repository. 
 
 === Configure push
 
@@ -26,10 +25,10 @@ image:refspec_master.png[Push Refspec]
 
 === Try to push to origin
 
-The trainers have created a commit in the master branch of the central repository such that push to master will fail.
+Try to push. If you are the first one to push the push is successful. If someone else have pushed a commit into the master branch of the central repository your push fails.
 
 Select 'Push to Upstream' in the Git Repositories View or 'Team > Push to Upstream' in the package explorer.
-You should get the following error dialog:
+You should get the following error dialog, in case someelse pushed before you:
 
 image:push_rejected.png[Push Rejected]
 
@@ -38,15 +37,14 @@ latest state. You first have to fetch the latest state and rebase your local bra
 
 === Fetch from origin and Rebase
 
-Follow link:fetch-the-latest-state-from-upstream.txt[Fetch the latest state from upstream]  and 
-link:merge-rebase-and-resolving-conflicts.txt[Merge, rebase and resolve conflicts].
+Fetch the latest change from the remote repository and integrate the latest change into your local repository by merging or rebasing it and resolving any possible merge conflict.
 
 image:rebaseontop.png[Rebase on top]
 
 === Push
 
 Now you can try to push again. If you are lucky and no other training participant has successfully pushed in the meantime, 
-your push will succeed
+your push will succeed.
 
 image:after_push.png[After push]
 
